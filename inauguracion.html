@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.9.0/css/lightbox.min.css">
+
+    <link rel="stylesheet" href="css/micss.css">
+    
+
+</head>
+<body>
+<div class="modal fade" id="modalPrograma" role="dialog">
+    <div class="modal-dialog modal-lg" id="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title ">Programa del evento.</h4>
+            </div>
+            <div class="modal-body">
+                <img src="img/programa.jpg">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Volver</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modalFlyer" role="dialog">
+    <div class="modal-dialog modal-lg" id="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title ">Información general.</h4>
+            </div>
+            <div class="modal-body">
+                <img src="img/flyer.jpg">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Volver</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--header-->
+<nav class="navbar navbar-expand-md navbar-dark bg-dark ">
+    <a class="navbar-brand" href="index.html">
+        <i class="fa fa-home" aria-hidden="true"></i>
+        Inicio
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#" data-toggle="modal" data-target="#modalPrograma"><i class="fa fa-calendar" aria-hidden="true"></i>Ver Programa</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">17 de Octubre</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown01">
+                    <div class="opcional">
+                        <a class="dropdown-item" href="inauguracion.html">Ceremonia de inauguración.</a>
+                    </div>
+                    <div class="obligatoria">
+                        <a class="dropdown-item" href="inteligenciaartificial.html">Inteligencia artificial.</a>
+                    </div>
+                    <div class="obligatoria">
+                        <a class="dropdown-item" href="desarrolloweb.html">Tendencias en el desarrollo web.</a>
+                    </div>
+                    <div class="optativa">
+                        <a class="dropdown-item" href="criptografia.html">Criptografía post-cuántica.</a>
+                    </div>
+                    <div class="obligatoria">
+                        <a class="dropdown-item" href="calidadcodigo.html">Herramientas y técnicas para incrementar la calidad en el código de tu proyecto.</a>
+                    </div>
+                    <div class="optativa">
+                        <a class="dropdown-item" href="panel.html">Panel.</a>
+                    </div>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">18 de Octubre</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown01">
+                    <div class="opcional">
+                        <a class="dropdown-item" href="impactoredes.html">Impacto de las redes en el IOT.</a>
+                    </div>
+                    <div class="opcional">
+                        <a class="dropdown-item" href="agronomia.html">Agronomía urbana y de precisión con el internet de las cosas.</a>
+                    </div>
+                    <div class="obligatoria">
+                        <a class="dropdown-item" href="investigacion.html">Hacia dónde va la investigación en las ciencias de la información.</a>
+                    </div>
+                    <div class="optativa">
+                        <a class="dropdown-item" href="disproboticos.html">Dispositivos robóticos y su integración en aplicaciones con realidad virtual.</a>
+                    </div>
+                    <div class="opcional">
+                        <a class="dropdown-item" href="ciudadesinteligentes.html">Ciudades inteligentes.</a>
+                    </div>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">19 de Octubre</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown01">
+                    <div class="obligatoria">
+                        <a class="dropdown-item" href="machinelearning.html">Machine learning 101.</a>
+                    </div>
+                    <div class="opcional">
+                        <a class="dropdown-item" href="internetdeltodo.html">Internet del Todo.</a>
+                    </div>
+                    <div class="opcional">
+                        <a class="dropdown-item" href="realidadva.html">Realidad virtual y aumentada.</a>
+                    </div>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Investigaciones</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown01">
+                    <a class="dropdown-item" href="ventanamodal.html">Ventana modal.</a>
+                    <a class="dropdown-item" href="carrusel.html">Carrusel de imagenes.</a>
+                </div>
+            </li>
+
+        </ul>
+
+        <form class="form-inline mt-2 mt-md-0">
+            <a href="https://ittepic.edu.mx">
+                <img src="img/logoITTepic.png">
+            </a>
+            <a href="https://www.tecnm.mx">
+                <img src="img/logoTecNM.png">
+            </a>
+        </form>
+    </div>
+</nav>
+<br>
+<h1 align="center">Inauguración de la Jornada Académica de Computación 2017</h1>
+<div align="center">
+	<img src="img/d1-inauguracion.jpg">
+</div>
+<div class="texto">
+	<p>
+		En las instalaciones del Auditorio de la CTM Tepic, se dió inicio a la Inauguración de la "Jornada Académica de de Computación 2017 Tendencias, Retos y Tecnología“, organizada por el Departamento y la Academia de Ingeniería en Sistemas Computacionales del Instituto Tecnológico de Tepic, que se estará desarrollandosé del 17 al 19 de octubre del presente.
+		<br>
+		El Presidum estuvo integrado por el Dr. Albino Rodríguez Díaz, Director del Instituto Tecnológico de Tepic, Ing. Olivia Guadalupe Treviño Montemayor; Subdirector de Servicios Administrativos, la Jefa de Departamento de la carrera de Ingeniería en Sistemas Computacionales; Mtra. Martha Parra Urias, la Lic. Maritza Ramírez Llamas organizadores del evento, también los acompaño la Dra. Claudia Guadalupe Quezada López Secretaria General del Comité Ejecutivo Delegacional D-V-63 De la Sección 61 Del SNTE, C. Germán Esaú Ibarra Ocampo, Presidente de la Sociedad de Alumnos.
+		<br>
+		Las palabras de bienvenida y la exposición de motivos fue dirigida por la Mtra. Martha Parra Urias, Jefa del Departamento de la carrera de Ingeniería en Sistemas Computacionales, posteriormente el mensaje inaugural lo realizó nuestro Director, quien señalo la importancia que prevalece en la actualidad en el ámbito laboral cuando el estudiante se incorpora al mercado, es la formación integral de los estudiantes y los procesos de certificación que adquieren en su formación, por ello la administración conjuntamente con el Departamento y la Academia promueve en la comunidad estudiantil la participación a las distintas certificaciones como Solidsworks, la Academia CISCO CCNA Switching & Routing: Introducción a Redes y CCNA Routing & Switching: Principios Básicos de routing y switching de las más importantes para su ámbito laboral.
+	</p>
+</div>
+
+
+
+
+<div class="container galeria">
+	<articles class="row">
+		<!--Inauguración-->
+		<article class="col-md-3">
+			<a href="img/d1in1.jpg" data-lightbox="fotos" data-title="Inauguración">
+			<img src="img/d1in1.jpg" class="img-thumbnail"></a>
+			<p>Inauguración</p>
+		</article>
+		<article class="col-md-3">
+			<a href="img/d1in2.jpg" data-lightbox="fotos" data-title="Inauguración">
+			<img src="img/d1in2.jpg" class="img-thumbnail"></a>
+			<p>Inauguración</p>
+		</article>
+		<article class="col-md-3">
+			<a href="img/d1in3.jpg" data-lightbox="fotos" data-title="Inauguración">
+			<img src="img/d1in3.jpg" class="img-thumbnail"></a>
+			<p>Inauguración</p>
+		</article>
+		<article class="col-md-3">
+			<a href="img/d1in4.jpg" data-lightbox="fotos" data-title="Inauguración">
+			<img src="img/d1in4.jpg" class="img-thumbnail"></a>
+			<p>Inauguración</p>
+		</article>
+		<article class="col-md-3">
+			<a href="img/d1in5.jpg" data-lightbox="fotos" data-title="Inauguración">
+			<img src="img/d1in5.jpg" class="img-thumbnail"></a>
+			<p>Inauguración</p>
+		</article>
+	</articles>
+</div>
+<footer class="footer">
+	<div class="container">
+		<p class="text-muted text-center">José Antonio Rodriguez Hernandez. 2017.</p>
+	</div>
+</footer>
+
+<!-- Script de lightbox -->
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.9.0/js/lightbox.min.js"></script>
+
+<script src="js/mijs.js"></script>
+
+</body>
+</html>

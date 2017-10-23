@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.9.0/css/lightbox.min.css">
+
+    <link rel="stylesheet" href="css/micss.css">
+    
+
+</head>
+<body>
+<div class="modal fade" id="modalPrograma" role="dialog">
+    <div class="modal-dialog modal-lg" id="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title ">Programa del evento.</h4>
+            </div>
+            <div class="modal-body">
+                <img src="img/programa.jpg">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Volver</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modalFlyer" role="dialog">
+    <div class="modal-dialog modal-lg" id="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title ">Información general.</h4>
+            </div>
+            <div class="modal-body">
+                <img src="img/flyer.jpg">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Volver</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--header-->
+<nav class="navbar navbar-expand-md navbar-dark bg-dark ">
+    <a class="navbar-brand" href="index.html">
+        <i class="fa fa-home" aria-hidden="true"></i>
+        Inicio
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#" data-toggle="modal" data-target="#modalPrograma"><i class="fa fa-calendar" aria-hidden="true"></i>Ver Programa</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">17 de Octubre</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown01">
+                    <div class="opcional">
+                        <a class="dropdown-item" href="inauguracion.html">Ceremonia de inauguración.</a>
+                    </div>
+                    <div class="obligatoria">
+                        <a class="dropdown-item" href="inteligenciaartificial.html">Inteligencia artificial.</a>
+                    </div>
+                    <div class="obligatoria">
+                        <a class="dropdown-item" href="desarrolloweb.html">Tendencias en el desarrollo web.</a>
+                    </div>
+                    <div class="optativa">
+                        <a class="dropdown-item" href="criptografia.html">Criptografía post-cuántica.</a>
+                    </div>
+                    <div class="obligatoria">
+                        <a class="dropdown-item" href="calidadcodigo.html">Herramientas y técnicas para incrementar la calidad en el código de tu proyecto.</a>
+                    </div>
+                    <div class="optativa">
+                        <a class="dropdown-item" href="panel.html">Panel.</a>
+                    </div>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">18 de Octubre</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown01">
+                    <div class="opcional">
+                        <a class="dropdown-item" href="impactoredes.html">Impacto de las redes en el IOT.</a>
+                    </div>
+                    <div class="opcional">
+                        <a class="dropdown-item" href="agronomia.html">Agronomía urbana y de precisión con el internet de las cosas.</a>
+                    </div>
+                    <div class="obligatoria">
+                        <a class="dropdown-item" href="investigacion.html">Hacia dónde va la investigación en las ciencias de la información.</a>
+                    </div>
+                    <div class="optativa">
+                        <a class="dropdown-item" href="disproboticos.html">Dispositivos robóticos y su integración en aplicaciones con realidad virtual.</a>
+                    </div>
+                    <div class="opcional">
+                        <a class="dropdown-item" href="ciudadesinteligentes.html">Ciudades inteligentes.</a>
+                    </div>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">19 de Octubre</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown01">
+                    <div class="obligatoria">
+                        <a class="dropdown-item" href="machinelearning.html">Machine learning 101.</a>
+                    </div>
+                    <div class="opcional">
+                        <a class="dropdown-item" href="internetdeltodo.html">Internet del Todo.</a>
+                    </div>
+                    <div class="opcional">
+                        <a class="dropdown-item" href="realidadva.html">Realidad virtual y aumentada.</a>
+                    </div>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Investigaciones</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown01">
+                    <a class="dropdown-item" href="ventanamodal.html">Ventana modal.</a>
+                    <a class="dropdown-item" href="carrusel.html">Carrusel de imagenes.</a>
+                </div>
+            </li>
+
+        </ul>
+
+        <form class="form-inline mt-2 mt-md-0">
+            <a href="https://ittepic.edu.mx">
+                <img src="img/logoITTepic.png">
+            </a>
+            <a href="https://www.tecnm.mx">
+                <img src="img/logoTecNM.png">
+            </a>
+        </form>
+    </div>
+</nav>
+<br>
+<!-- Carrusel -->
+<h1 align="center">Investigación de Carrusel.</h1>
+<div>
+    <h1>¿Qué es?</h1>
+    <br>
+    <div class="texto">
+    	<p>
+        Un carrusel es un componente que se utiliza para recorrer elementos como si se tratara literalmente de un carrusel. En este caso veremos a continuación un ejemplo con imágenes combinado con texto:
+        </p>
+    </div>
+    <br>
+    <!--Carrusel-->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="5000" align="center">
+    	<div class="carousel-inner" role="listbox">
+    		<div class="carousel-item active">
+    			<img class="d-block img-fluid" src="img/imgEjemplo1.jpg">
+
+    		</div>
+    		<div class="carousel-item">
+    			<img class="d-block img-fluid" src="img/imgEjemplo2.jpg">
+    			<div class="carousel-caption">
+    				<h3>Esta es la segunda imagen</h3>
+    				<p>¡Es una foto hermosa!</p>
+    			</div>
+    		</div>
+    		<div class="carousel-item">
+    			<h1>¡Hola!</h1><br><h1>Este es</h1><br><h1>un ejemplo</h1><br><h1>con texto.</h1>
+    		</div>
+    	</div>
+    	<a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+    		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    		<span class="sr-only">Anterior</span>
+    	</a>
+    	<a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+    		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+    		<span class="sr-only">Siguiente</span>
+    	</a>
+    </div>
+    <br>
+    <div class="texto">
+    	<p>
+        Para crear este componente en específico tenemos el siguiente código:
+        </p>
+    </div>
+    <br>
+    <div class="codigo">
+    	<span class="signo">&lt;</span><span class="etiqueta">div</span> <span class="propiedad">id</span><span class="signo">=</span><span class="clase">"myCarousel"</span> <span class="propiedad">class</span><span class="signo">=</span><span class="clase">"carousel slide"</span> <span class="propiedad">data-ride</span><span class="signo">=</span><span class="clase">"carousel"</span> <span class="propiedad">data-interval</span><span class="signo">=</span><span class="clase">"5000"</span> <span class="propiedad">align</span><span class="signo">=</span><span class="clase">"center"</span><span class="signo">&gt;</span>
+    	<br>
+    	<span class="tab">----</span><span class="signo">&lt;</span><span class="etiqueta">div</span> <span class="propiedad">class</span><span class="signo">=</span><span class="clase">"carousel-inner"</span> <span class="propiedad">role</span><span class="signo">=</span><span class="clase">"listbox"</span><span class="signo">&gt;</span>
+    	<br>
+    	<span class="tab">--------</span><span class="signo">&lt;</span><span class="etiqueta">div</span> <span class="propiedad">class</span><span class="signo">=</span><span class="clase">"carousel-item active"</span><span class="signo">&gt;</span>
+    	<br>
+    	<span class="tab">------------</span><span class="signo">&lt;</span><span class="etiqueta">img</span> <span class="propiedad">class</span><span class="signo">=</span><span class="clase">"d-block img-fluid"</span> <span class="propiedad">src</span><span class="signo">=</span><span class="clase">"img/imgEjemplo1.jpg"</span><span class="signo">&gt;</span>
+    	<br>
+    	<span class="tab">--------</span><span class="signo">&lt;/</span><span class="etiqueta">div</span><span class="signo">&gt;</span>
+    	<br>
+    	<span class="tab">--------</span><span class="signo">&lt;</span><span class="etiqueta">div</span> <span class="propiedad">class</span><span class="signo">=</span><span class="clase">"carousel-item"</span><span class="signo">&gt;</span>
+    	<br>
+    	<span class="tab">------------</span><span class="signo">&lt;</span><span class="etiqueta">img</span> <span class="propiedad">class</span><span class="signo">=</span><span class="clase">"d-block img-fluid"</span> <span class="propiedad">src</span><span class="signo">=</span><span class="clase">"img/imgEjemplo2.jpg"</span><span class="signo">&gt;</span>
+    	<br>
+    	<span class="tab">------------</span><span class="signo">&lt;</span><span class="etiqueta">div</span> <span class="propiedad">class</span><span class="signo">=</span><span class="clase">"carousel-caption"</span><span class="signo">&gt;</span>
+    	<br>
+    	<span class="tab">----------------</span><span class="signo">&lt;</span><span class="etiqueta">h3</span><span class="signo">&gt;Esta es la segunda imagen&lt;/</span><span class="etiqueta">h3</span><span class="signo">&gt;</span>
+    	<br>
+    	<span class="tab">----------------</span><span class="signo">&lt;</span><span class="etiqueta">p</span><span class="signo">&gt;¡Es una foto hermosa!&lt;/</span><span class="etiqueta">p</span><span class="signo">&gt;</span>
+    	<br>
+    	<span class="tab">------------</span><span class="signo">&lt;/</span><span class="etiqueta">div</span><span class="signo">&gt;</span>
+    	<br>
+    	<span class="tab">--------</span><span class="signo">&lt;/</span><span class="etiqueta">div</span><span class="signo">&gt;</span>
+    	<br>
+    	<span class="tab">--------</span><span class="signo">&lt;</span><span class="etiqueta">div</span> <span class="propiedad">class</span><span class="signo">=</span><span class="clase">"carousel-item"</span><span class="signo">&gt;</span>
+    	<br>
+    	<span class="tab">------------</span><span class="signo">&lt;</span><span class="etiqueta">h1</span><span class="signo">&gt;¡Hola!&lt;/</span><span class="etiqueta">h1</span><span class="signo">&gt;</span>
+    	<br>
+    	<span class="tab">------------</span><span class="signo">&lt;</span><span class="etiqueta">br</span><span class="signo">&gt;&lt;</span><span class="etiqueta">h1</span><span class="signo">&gt;Este es&lt;/</span><span class="etiqueta">h1</span><span class="signo">&gt;</span>
+    	<br>
+    	<span class="tab">------------</span><span class="signo">&lt;</span><span class="etiqueta">br</span><span class="signo">&gt;&lt;</span><span class="etiqueta">h1</span><span class="signo">&gt;un ejemplo&lt;/</span><span class="etiqueta">h1</span><span class="signo">&gt;</span>
+    	<br>
+    	<span class="tab">------------</span><span class="signo">&lt;</span><span class="etiqueta">br</span><span class="signo">&gt;&lt;</span><span class="etiqueta">h1</span><span class="signo">&gt;con texto&lt;/</span><span class="etiqueta">h1</span><span class="signo">&gt;</span>
+    	<br>
+    	<span class="tab">--------</span><span class="signo">&lt;/</span><span class="etiqueta">div</span><span class="signo">&gt;</span>
+    	<br>
+    	<span class="tab">----</span><span class="signo">&lt;/</span><span class="etiqueta">div</span><span class="signo">&gt;</span>
+    	<br>
+    	<span class="tab">----</span><span class="signo">&lt;</span><span class="etiqueta">a</span> <span class="propiedad">class</span><span class="signo">=</span><span class="clase">"carousel-control-prev"</span> <span class="propiedad">href</span><span class="signo">=</span><span class="clase">"#myCarousel"</span> <span class="propiedad">role</span><span class="signo">=</span><span class="clase">"button"</span> <span class="propiedad">data-slide</span><span class="signo">=</span><span class="clase">"prev"</span><span class="signo">&gt;</span>
+    	<br>
+    	<span class="tab">--------</span><span class="signo">&lt;</span><span class="etiqueta">span</span> <span class="propiedad">class</span><span class="signo">=</span><span class="clase">"carousel-control-prev-icon"</span> <span class="propiedad">aria-hidden</span><span class="signo">=</span><span class="clase">"true"</span><span class="signo">&gt;&lt;/</span><span class="etiqueta">span</span><span class="signo">&gt;</span>
+    	<br>
+    	<span class="tab">--------</span><span class="signo">&lt;</span><span class="etiqueta">span</span> <span class="propiedad">class</span><span class="signo">=</span><span class="clase">"sr-only"</span><span class="signo">&gt;Anterior&lt;/</span><span class="etiqueta">span</span><span class="signo">&gt;</span>
+    	<br>
+    	<span class="tab">----</span><span class="signo">&lt;/</span><span class="etiqueta">a</span><span class="signo">&gt;</span>
+    	<br>
+    	<span class="tab">----</span><span class="signo">&lt;</span><span class="etiqueta">a</span> <span class="propiedad">class</span><span class="signo">=</span><span class="clase">"carousel-control-next"</span> <span class="propiedad">href</span><span class="signo">=</span><span class="clase">"#myCarousel"</span> <span class="propiedad">role</span><span class="signo">=</span><span class="clase">"button"</span> <span class="propiedad">data-slide</span><span class="signo">=</span><span class="clase">"next"</span><span class="signo">&gt;</span>
+    	<br>
+    	<span class="tab">--------</span><span class="signo">&lt;</span><span class="etiqueta">span</span> <span class="propiedad">class</span><span class="signo">=</span><span class="clase">"carousel-control-next-icon"</span> <span class="propiedad">aria-hidden</span><span class="signo">=</span><span class="clase">"true"</span><span class="signo">&gt;&lt;/</span><span class="etiqueta">span</span><span class="signo">&gt;</span>
+    	<br>
+    	<span class="tab">--------</span><span class="signo">&lt;</span><span class="etiqueta">span</span> <span class="propiedad">class</span><span class="signo">=</span><span class="clase">"sr-only"</span><span class="signo">&gt;Siguiente&lt;/</span><span class="etiqueta">span</span><span class="signo">&gt;</span>
+    	<br>
+    	<span class="tab">----</span><span class="signo">&lt;/</span><span class="etiqueta">a</span><span class="signo">&gt;</span>
+    	<br>
+    	<span class="tab"></span><span class="signo">&lt;/</span><span class="etiqueta">div</span><span class="signo">&gt;</span>
+    </div>
+    <br>
+    <div class="texto">
+    	<p>
+        Como podemos apreciar, con <span class="clase">"carousel-control-prev"</span> y <span class="clase">"carousel-control-next"</span> controlamos la transición manualmente con la propiedad de <span class="propiedad">href</span> con el ID del carrusel.
+        </p>
+        <p>
+        Así mismo, podemos poner una transición automática con <span class="propiedad">data-interval</span> donde podemos ingresar el periodo en milisegundos en que se harán las transiciones.
+        </p>
+    </div>
+</div>
+
+
+<br>
+<br>
+<br>
+<footer class="footer">
+	<div class="container">
+		<p class="text-muted text-center">José Antonio Rodriguez Hernandez. 2017.</p>
+	</div>
+</footer>
+
+<!-- Script de lightbox -->
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.9.0/js/lightbox.min.js"></script>
+
+<script src="js/mijs.js"></script>
+
+</body>
+</html>

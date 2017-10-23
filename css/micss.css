@@ -1,0 +1,69 @@
+/*css*/
+
+h1{
+	color:white;
+	padding:10px;
+}
+body{
+	background: url(../img/fondo.jpg);
+}
+body > .container{
+	padding-top: 60px;
+}
+.footer {
+/*    position: absolute;*/
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background: url(../img/foot.png);	
+}
+
+.texto{
+	color: #c1c1c1;
+	font-size: 20px;
+	padding:10px;
+}
+
+.codigo{
+	background-color: black;
+}
+.signo{
+	color:white;
+}
+.etiqueta{
+	color:#c10050;
+}
+.propiedad{
+	color:#059305;
+}
+.clase{
+	color:#d8d100;
+}
+.tab{
+	color:black;
+}
+.carousel-caption{
+	background: url(../img/foot.png);
+}
+article img{
+	max-height:180px;
+}
+article p{
+	text-align:center;
+	color: white;
+}
+.img-resumen{
+	width: 60%;
+}
+.carousel-item{
+	width: 80%;
+}
+.obligatoria{
+	background-color:lime;
+}
+.optativa{
+	background-color:cyan;
+}
+.opcional{
+	background-color:silver;
+}
