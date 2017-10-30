@@ -67,3 +67,8 @@ article p{
 .opcional{
 	background-color:silver;
 }
+.link-pie {
+	color: red;
+	text-decoration: none;
+	border-bottom: 1px white;
+}
